@@ -20,7 +20,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - DOCKER_MODS=samuelbartik/trusted-certs # <---
+      - DOCKER_MODS=sytten/trusted-certs # <---
     volumes:
       - /path/to/appdata/config:/config
     restart: unless-stopped
